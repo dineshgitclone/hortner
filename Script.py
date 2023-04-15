@@ -141,7 +141,7 @@ Elsa
 
 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/iPapkornbetabots> ᴄʜᴀɴɴᴇʟ </a>
+▫️<a href=https://t.me/cynitebackup> ᴄʜᴀɴɴᴇʟ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
 
     RESTART_TXT = """
