@@ -85,7 +85,7 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 #url links
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shorturllink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '3a3935e37c74a2384f7a689c414f078ab6320785')
+SHORTLINK_API = environ.get('SHORTLINK_API', '430a2c3b4b6e1afb11c12905c266841040b150a4')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 
 #Auto approve 
@@ -100,8 +100,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "7"))
 S_GROUP = environ.get('S_GROUP',"https://t.me/cyniteofficial")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/iPapkornbetabots")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/iPapkornbetabots")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/cynitebackup")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/cynitebackup")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
