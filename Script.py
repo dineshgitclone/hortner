@@ -141,7 +141,7 @@ Elsa
 
 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/+3unDxE53RTRkZWZl> ᴄʜᴀɴɴᴇʟ </a>
+▫️<a href=https://t.me/Toogle_Search> ᴄʜᴀɴɴᴇʟ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
 
     RESTART_TXT = """
