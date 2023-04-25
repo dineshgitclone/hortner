@@ -140,10 +140,6 @@ Elsa
     CUSTOM_FILE_CAPTION = """<b><center>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 
 
-╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/SunRockers> ᴄʜᴀɴɴᴇʟ </a>
-╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</center></b>"""
-
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
 📅 Dᴀᴛᴇ : <code>{}</code>
