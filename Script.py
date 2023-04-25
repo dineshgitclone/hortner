@@ -134,14 +134,14 @@ Elsa
 🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
 🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
 
-😍{message.chat.title}</b>
+😍 {message.chat.title}</b>
 """
 
     CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 
 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/SunRockers> ᴄʜᴀɴɴᴇʟ </a>
+▫️<a href=https://t.me/Toogle_Search> ᴄʜᴀɴɴᴇʟ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
 
     RESTART_TXT = """
