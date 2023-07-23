@@ -198,9 +198,9 @@ async def next_page(bot, query):
     )
     btn.insert(1, 
          [
-             InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-             InlineKeyboardButton('How To Watch', url='https://t.me/howtoopenlinkzzx'),
-             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo')
+             
+             InlineKeyboardButton('Get Direct File', url='https://cosmofeed.com/vig/64bccad2db95ed00207c0355')
+             
          ]
     )
     if 0 < offset <= 10:
@@ -960,10 +960,8 @@ async def auto_filter(client, msg, spoll=False):
         ]
     )
     btn.insert(1, 
-         [
-             InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-             InlineKeyboardButton('How To Watch', url='https://t.me/howtoopenlinkzzx'), 
-             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo')
+         [            
+             InlineKeyboardButton('Get Direct File', url='https://cosmofeed.com/vig/64bccad2db95ed00207c0355')             
          ]
     )
 
