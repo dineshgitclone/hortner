@@ -1,7 +1,7 @@
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong, PeerIdInvalid
-from info import ADMINS, LOG_CHANNEL, SUPPORT_CHAT, MELCOW_NEW_USERS, MELCOW_IMG, MELCOW_VID, MAIN_CHANNEL, S_GROUP
+from info import ADMINS, LOG_CHANNEL, SUPPORT_CHAT, MELCOW_NEW_USERS, MELCOW_IMG, MELCOW_VID, MAIN_CHANNEL, S_GROUP, AUTH_GROUPS
 from database.users_chats_db import db
 from database.ia_filterdb import Media
 from utils import get_size, temp, get_settings
@@ -10,6 +10,22 @@ from pyrogram.errors import ChatAdminRequired
 import asyncio
 
 """-----------------------------------------https://t.me/GetTGLink/4179 --------------------------------------"""
+def is_authorized_chat(chat_id):
+    return chat_id in AUTH_GROUPS
+
+@Client.on_message(filters.new_chat_members)
+def on_new_chat_members(client, message):
+    new_members = message.new_chat_members
+    bot_id = client.get_me().id
+    chat_id = message.chat.id
+
+    # Check if the bot itself is added to the group
+    if any(member.id == bot_id for member in new_members):
+        try:            
+            if not is_authorized_chat(chat_id):
+                client.leave_chat(chat_id)
+        except PeerIdInvalid:
+            print(f"Bot was unable to leave chat with ID: {chat_id}")
 
 @Client.on_message(filters.new_chat_members & filters.group)
 async def save_group(bot, message):
