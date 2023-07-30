@@ -198,7 +198,7 @@ async def next_page(bot, query):
     )
     btn.insert(1, 
          [             
-             InlineKeyboardButton(' 👉 Get Direct Files (Remove Ads) 👈 ', url='https://cosmofeed.com/vig/64bccad2db95ed00207c0355')             
+             InlineKeyboardButton('👉 Get Direct Files (Remove Ads) 👈', url='https://cosmofeed.com/vig/64bccad2db95ed00207c0355')             
          ]
     )
     if 0 < offset <= 10:
@@ -959,7 +959,7 @@ async def auto_filter(client, msg, spoll=False):
     )
     btn.insert(1, 
          [          
-          InlineKeyboardButton('Get Direct Files (Remove Ads)', url='https://cosmofeed.com/vig/64bccad2db95ed00207c0355')             
+          InlineKeyboardButton('👉 Get Direct Files (Remove Ads) 👈', url='https://cosmofeed.com/vig/64bccad2db95ed00207c0355')             
          ]
     )
 
