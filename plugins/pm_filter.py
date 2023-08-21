@@ -198,6 +198,11 @@ async def next_page(bot, query):
     )
     btn.insert(1, 
          [             
+             InlineKeyboardButton('❓ How To Open Link ❓', url='https://t.me/howtoopenlinkzzx')
+         ]
+    )
+    btn.insert(2, 
+         [             
              InlineKeyboardButton('👉 Get Direct Files (Remove Ads) 👈', url='https://cosmofeed.com/vig/64bccad2db95ed00207c0355')             
          ]
     )
@@ -958,6 +963,11 @@ async def auto_filter(client, msg, spoll=False):
         ]
     )
     btn.insert(1, 
+         [             
+             InlineKeyboardButton('❓ How To Open Link ❓', url='https://t.me/howtoopenlinkzzx')
+         ]
+    )
+    btn.insert(2, 
          [          
           InlineKeyboardButton('👉 Get Direct Files (Remove Ads) 👈', url='https://cosmofeed.com/vig/64bccad2db95ed00207c0355')             
          ]
