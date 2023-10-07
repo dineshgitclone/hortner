@@ -201,11 +201,7 @@ async def next_page(bot, query):
              InlineKeyboardButton('❓ How To Open Link ❓', url='https://t.me/Howtoopenlinksd')
          ]
     )
-    btn.insert(2, 
-         [             
-             InlineKeyboardButton('👉 Get Direct Files (Remove Ads) 👈', url='https://cosmofeed.com/vig/64e36d3884a783001dcfdb51')
-         ]
-    )
+   
     if 0 < offset <= 10:
         off_set = 0
     elif offset == 0:
@@ -966,12 +962,7 @@ async def auto_filter(client, msg, spoll=False):
          [             
              InlineKeyboardButton('❓ How To Open Link ❓', url='https://t.me/Howtoopenlinksd')
          ]
-    )
-    btn.insert(2, 
-         [          
-          InlineKeyboardButton('👉 Get Direct Files (Remove Ads) 👈', url='https://cosmofeed.com/vig/64e36d3884a783001dcfdb51')
-         ]
-    )
+             )
 
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
