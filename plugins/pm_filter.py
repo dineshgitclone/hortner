@@ -198,7 +198,7 @@ async def next_page(bot, query):
     )
     btn.insert(1, 
          [             
-             InlineKeyboardButton('❓ How To Open Link ❓', url='https://t.me/Howtoopenlinksd')
+             InlineKeyboardButton('❓ How To Open Link ❓', url='https://t.me/How_toopen_link')
          ]
     )
    
@@ -960,7 +960,7 @@ async def auto_filter(client, msg, spoll=False):
     )
     btn.insert(1, 
          [             
-             InlineKeyboardButton('❓ How To Open Link ❓', url='https://t.me/Howtoopenlinksd')
+             InlineKeyboardButton('❓ How To Open Link ❓', url='https://t.me/How_toopen_link')
          ]
              )
 
